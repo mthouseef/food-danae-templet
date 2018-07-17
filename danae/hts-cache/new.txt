@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+10:58:16	26/26	---M--	200	added ('OK')	text/plain	date:Tue,%2007%20Nov%202017%2005:28:18%20GMT	http://biandel.com/robots.txt		(from )
+10:58:17	103193/103193	---M-Z	200	added ('OK')	text/html	date:Tue,%2007%20Nov%202017%2005:28:18%20GMT	http://biandel.com/danae/	C:/Users/nizam/Desktop/danae/biandel.com/danae/index.html	(from )

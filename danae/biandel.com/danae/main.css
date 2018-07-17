@@ -1,0 +1,468 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#000;
+}
+
+/* Global */
+.container-s{
+  width:100%;
+  margin:0;
+
+overflow:hidden;
+}
+
+/*
+.container{
+  width:100%;
+  background-color:#ffffff;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  height: 50px;
+}
+*/
+
+/*header*/
+header .container-s{
+  background-color: #ffffff;
+  height: 60px;
+  position:fixed;
+  border-bottom:#000 1px solid;
+  padding: 10px;
+  z-index: 999999999999;
+
+}
+.container-s #branding {
+  margin:auto;
+  margin-left: 83px;
+  float: left;
+   width: 20%;
+
+}
+#logo{
+  margin-bottom: 30px;
+
+}
+.container-s nav{
+  margin-top: 10px;
+  float: right;
+  margin-right: 100px;
+
+}
+
+.container-s ul li{
+    margin:6px 14px 0px 10px;
+    list-style: none;
+    display: inline-block;
+    margin:0 20px -40px 0;
+    height: 20px;
+
+
+}
+
+.container-s ul li a{
+ text-decoration: none;
+  text-transform: uppercase;
+  color: #444444;
+    font-size:16px; ;
+    font-weight: 700px;
+  letter-spacing: 0px;
+  font-weight: bold;
+
+
+
+}
+.current a{
+ border-bottom:#e8491d 1.8px solid;
+}
+
+
+header nav ul li a:hover{
+  border-bottom:#e8491d 1.8px solid;
+  border-width:1.8px;
+}
+header nav ul li a:hover{
+  width: 100%;
+}
+
+
+/*Showcase*/
+
+#showcase .container-s{
+  padding-top: 55px;
+  min-height:900px;
+  background:url('img/main-bg1.jpeg');
+  background-size:cover;
+  text-align:center;
+  color:#ffffff;
+
+
+}
+#showcase img{
+  margin-top: 120px;
+}
+#showcase h1{
+  margin-top:100px;
+  font-size:70px;
+  margin-bottom:10px;
+font-family: "Brush Script Std";
+}
+}
+
+#showcase p{
+  font-size:20px;
+}
+/*https://fonts.google.com/specimen/Noto+Sans
+https://fonts.google.com/specimen/Pacifico
+*/
+
+
+/*showcase 1*/
+
+.showcase1 .container-s{
+  padding-top: 60px;
+ min-height:550px;
+
+ background-color:#fff;
+  color:#ffffff;
+
+}
+ #main1{
+  float: left;
+  width: 30%;
+
+  margin: 30px;
+  text-align: center;
+  color: #000;
+}
+
+#main1 h3 a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+}
+#main1 h4{
+  padding-top: 30px;
+}
+#main1 h2{
+  font-family: "Brush Script Std";
+  font-size:60px;;
+
+  margin: 0;
+}
+#kit{
+  float: right;
+  width:42%;
+  height: 50%;
+  padding: 20px;
+  margin-right: 60px;
+}
+
+
+        /*showcase-2*/
+.container1{
+  background:url('img/bg.jpeg');
+  background-size:cover;
+  min-height: 900px;
+  width:100%;
+  margin:0;
+  overflow:hidden;
+  background-color: #000;
+  text-align: center;
+
+}
+
+#main2{
+  color: #fff;
+  text-align: center;
+  margin-top: 160px;
+}
+#foodTitel{
+  text-transform: uppercase;
+  line-height: 1.3em;
+  letter-spacing: 2px;
+  font-family:Arial,serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#makes{
+  font-family: "Brush Script Std";
+  font-weight: 500;
+  font-size:70px;
+  margin-top: 20px;
+}
+#dot{
+  margin-top:20px;
+
+}
+#p{
+  color:#fff;
+  padding: 0 360px 0 360px;
+  margin: 70px 0px 0 0px;
+}
+/*BOxes*/
+#container3{
+
+
+
+}
+div .BOX1{
+  display:inline-block;
+width: 30%;
+
+  min- height: 200px;
+margin:50px 10px 10px 10px;
+  height: 300px;
+
+}
+#container3 .BOX1 img{
+
+  background-color: white;
+padding: 70px;
+  border-radius: 50%;
+ width: 190px;
+height: 190px;
+
+}
+#container3 .BOX1 h3{
+  margin-top: 30px;
+ color: #000;
+
+ font-size: 18px;
+ font-weight: bold;
+ z-index: -9999;
+}
+#container3 .Box1 p{
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-family: serif;
+}
+#container3 .BOX1 img:hover{
+
+  opacity: 0.2;
+  width: 195px;
+}
+
+/* BOOTSTRAP CSS*/
+
+ #boot-showcase{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 600px;
+ overflow: hidden;
+
+}
+.cat{
+
+  text-align: center;
+  padding-top:80px;
+  text-transform: uppercase;
+}
+.cat >h3{
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: serif;
+
+  margin-bottom: 30px;
+}
+
+.special >h3{
+  /*   font-family: "Pacifico","Comic Sans MS";*/
+ font-family: "Brush Script Std";
+    font-size: 40px;
+    letter-spacing:0.6em;
+}
+div .imgdot >img{
+
+  margin-top: 40px;
+}
+
+.row1{
+  min-height:400px;
+
+}
+.row1 .col-md-4{
+
+  margin-left: 100px;
+  margin-top: 80px;
+  margin-right: 100px;
+
+}
+.headings{
+
+  padding:10px 0 26px 0;
+
+ font-size: 30px;
+  font-weight:700;
+
+  border-bottom:#ccc 2px solid;
+}
+div .row2{
+margin-left:1px;
+margin-top: 20px;
+padding-top: 30px;
+
+  border-bottom:#ccc 1.8px solid;
+
+}
+
+div #right{
+  float: right;
+  color: #000;
+  font-size: 25px;
+}
+.col-md-8 >h3{
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+#btn{
+
+  padding-bottom: 50px;
+  margin-left: 100px;;
+}
+#black{
+  font-size: 14px
+  padding:10px;
+}
+.lead{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#boot-showcase p{
+  color:#ccc;
+}
+
+/*showcase 3*/
+#showcase3{
+  background:url('img/showcase3.jpeg');
+   position: relative;
+     background-size:cover;
+     min-height: 750px;
+     width:100%;
+     margin:0;
+     overflow:hidden;
+}
+.container2{
+
+
+ min-height: 750px;
+
+  text-align: center;
+  background-color: rgba(0,0,0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+}
+
+
+
+/* showcase 4*/
+.showcase4 .container-s{
+  padding-top: 60px;
+ min-height:500px;
+
+ background-color:#fff;
+  color:#ffffff;
+
+}
+#main5{
+ float: right;
+ width: 30%;
+
+ margin-right:100px;
+ margin-top: 50px;
+ text-align: center;
+ color: #000;
+}
+
+
+#main5 h3 a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+  text-transform: uppercase;
+}
+#main5 h5{
+  padding-top: 30px;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+#main5 h2{
+  font-family: "Brush Script Std";
+  font-size:60px;;
+
+  margin: 0;
+}
+
+#kit1{
+  float:left;
+  width:42%;
+  height: 50%;
+  padding: 20px;
+  margin-left: 60px;
+}
+
+
+/*CAROUSEL*/
+
+.carousel11{
+  background:url('img/carousel.jpeg');
+  position: relative;
+    background-size:cover;
+    min-height: 750px;
+    width:100%;
+    margin:0;
+  overflow: hidden;
+  min-height: 1100px;
+}
+.car{
+  min-height: 750px;
+
+   text-align: center;
+   background-color: rgba(0,0,0, 0.7);
+       position: absolute;
+       top: 0;
+       left: 0;
+
+}
+
+#row3{
+
+  margin-top: 100px;
+  display: block;
+}
+#row3 >h3{
+ color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+#row3 h2{
+  color: #ffffff;
+  text-align: center;
+  font-size: 45px;
+  padding: 20px;
+  margin-top: 40px;
+    font-family: "Brush Script Std";
+    text-transform: uppercase;
+
+}
+#dot1{
+  align-items:center;
+  justify-content: center;
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+.carousel1{
+  height: 500px;
+}
